@@ -257,7 +257,7 @@ main {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url(./img/Shape.svg);
+    background-image: url(img/Shape.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
