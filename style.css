@@ -44,6 +44,10 @@ header {
     color: #000000;
 }
 
+.header-menu a:hover {
+    color: #FF7931;
+} 
+
 main {
     margin: 0 auto 0 auto; 
     padding: 0;
@@ -128,6 +132,11 @@ main {
 .main-review-item {
     width: 370px;
 }
+
+.main-review-item a {
+ text-decoration: none;
+}
+
 .main-review-item p {
     text-align: left;
     width: 370px;
@@ -154,7 +163,7 @@ main {
     padding-top: 20px;
 }
 
-.main-review-item:nth-child(2) h3 {
+.main-review-item a:hover h3 {
     color: #FF7931;
 }
 
@@ -299,6 +308,10 @@ footer {
     text-transform: uppercase;
 }
 
+.footer-menu a:hover {
+    color: #FF7931;
+} 
+
 .footer-social {
     width: 1170px;
     margin: 46px 135px auto 135px;
@@ -322,6 +335,10 @@ footer {
     background-color: #ffffff;
     font-size: 0;
     margin-top: 42px;    
+}
+
+.footer-social a:hover {
+    background-color: #FF7931;
 }
 
 .inst {
