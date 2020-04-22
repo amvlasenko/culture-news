@@ -129,6 +129,8 @@ main {
     width: 370px;
 }
 .main-review-item p {
+    text-align: left;
+    width: 370px;
     margin: 0;
     padding: 0;
     font-family: Roboto;
@@ -256,6 +258,8 @@ main {
     width: 16px;
     height: 16px;
     background-image: url(/img/Shape.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer {
