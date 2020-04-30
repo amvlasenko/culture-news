@@ -5,11 +5,16 @@ body {
 }
 
 header {
-    width: 1440px;
-    height: 218px;
+    width: 100%;
+    min-height: 218px;
     background-color: white;
     margin: 0 auto 0 auto;
 }
+
+/* .container {
+    margin: 0 auto 0 auto;
+    max-width: 1140px;
+} */
 
 .header-logo {
     text-align: center;
@@ -30,7 +35,9 @@ header {
     display: flex;
     margin: 47px 134px auto 135px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .header-menu a {
     font-family: Roboto;
     font-style: normal;
@@ -42,6 +49,7 @@ header {
     text-transform: uppercase;
     vertical-align: middle;
     color: #000000;
+    
 }
 
 .header-menu a:hover {
@@ -51,24 +59,30 @@ header {
 main {
     margin: 0 auto 0 auto; 
     padding: 0;
-    width: 1440px;
+    width: 100%;
 }
 
 
 .main-promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
     margin: 0 auto 0 auto;
     background-image: url(img/Hotel-11.jpg);
     background-repeat: no-repeat;
-    width: 1440px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     height: 464px;
     color: #ffffff;
+    padding: 45px 0;
 }
 
 .main-promo-icon {
-    position: absolute;
-    left: 693px;
-    top: 46px;
+    display: inline-block;
+    
     width: 55px;
     height: 55px;
     background-image: url(img/icon.svg);
@@ -84,7 +98,7 @@ main {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding-top: 133px;
+    padding-top: 0px;
 }
 
 .main-promo p {
@@ -98,21 +112,19 @@ main {
     line-height: 21px;
     /* or 150% */
     text-align: center;
-    margin-left: 492px;
-    margin-top: 139px;
 }
 
 .main-review {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto 0 auto;
     background-color: #ffffff;
-    padding-bottom: 51px;
+    padding-bottom: 35px;
 }
 
 .main-review h2 {
     margin: 0;
     padding-top: 44px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
@@ -123,14 +135,17 @@ main {
 }
 
 .main-review-container {
+    max-width: 1440px;
     display: flex;
-    justify-content: space-between;
-    margin: 0 135px 0 137px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
     padding: 0;
 }
 
 .main-review-item {
     width: 370px;
+    padding: 15px 0;
 }
 
 .main-review-item a {
@@ -172,7 +187,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     height: 556px;
     background-color: #F7F7F7;
     background-image: url(img/Ellipse.svg);
@@ -272,9 +287,9 @@ main {
 }
 
 footer {
-    margin: 50px auto 0 auto;
-    width: 1440px;
-    height: 295px;
+    margin:auto;
+    padding-bottom: 46px;
+    width: 100%;
     background-color: #575757;
 }
 
@@ -294,6 +309,7 @@ footer {
     display: flex;
     margin: 32px 134px 0 135px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-menu a {
@@ -313,7 +329,6 @@ footer {
 } 
 
 .footer-social {
-    width: 1170px;
     margin: 46px 135px auto 135px;
     text-align: center;
 }
@@ -322,7 +337,6 @@ footer {
     left: center;
     content: "";
     display: block;
-    width: 1170px;
     height: 1px;
     opacity: 0.4;
     background-color:#FFFFFF;
