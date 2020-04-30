@@ -193,6 +193,7 @@ main {
     background-image: url(img/Ellipse.svg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 50px;
 }
 
 .main-abonements h2,
