@@ -355,17 +355,3 @@ footer {
 .footer-social a:hover {
     background-color: #FF7931;
 }
-
-.inst {
-    background: url(img/inst.svg) no-repeat center;
-    margin-right: 14px;
-}
-
-.face {
-    background: url(img/face.svg) no-repeat center;
-    margin-right: 14px;
-}
-
-.twit {
-    background: url(img/twit.svg) no-repeat center;
-}
